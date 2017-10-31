@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created by: Kay Lin
+// Created on: 30th-Oct-2017
+// Created for: ICS3U
+// This program displays every lowercase letter for each uppercase letter
+
+
+for outerCounter in 65 ... 90 {
+    for interCounter in 97 ... 122 {
+        var unicode = UnicodeScalar(interCounter)
+        var upperUnicode = UnicodeScalar(outerCounter)
+         show("\(upperUnicode!)" + "-&gt;" + "\(unicode!)")
+    }
+}
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 390}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
